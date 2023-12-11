@@ -1,0 +1,32 @@
+/* Main container style */
+body {
+    width: 600px;
+    height: 400px;
+    margin: 0;
+    padding: 0;
+    border-radius: 10px; // Adjust for rounded corners
+    font-family: Arial, sans-serif;
+    background-color: slategray;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Content area styles */
+.content {
+    padding: 20px;
+    text-align: center;
+
+    .contactDetails {
+        list-style: none;
+        padding: 0;
+
+        li {
+            margin: 10px 0;
+            padding: 5px 10px;
+            background-color: #424242;
+            border-radius: 5px; // Rounded corners for list items
+        }
+    }
+}
