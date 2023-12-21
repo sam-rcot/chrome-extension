@@ -11,6 +11,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 /* Content area styles */
@@ -21,12 +22,25 @@ body {
     .contactDetails {
         list-style: none;
         padding: 0;
-
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
         li {
             margin: 10px 0;
             padding: 5px 10px;
             background-color: #424242;
             border-radius: 5px; // Rounded corners for list items
+            user-select: all;
+        }
+    }
+}
+
+#displayArea {
+    ul {
+        li {
+            span {
+                user-select: all;
+            }
         }
     }
 }
